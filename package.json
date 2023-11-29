@@ -1,7 +1,7 @@
 {
   "name": "react-native-brother-printing",
   "title": "React Native Brother Printing",
-  "version": "0.2.3",
+  "version": "0.0.1",
   "description": "A package that allows you to printer with brother printers",
   "main": "index.js",
   "types": "index.d.ts",
