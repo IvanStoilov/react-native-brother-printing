@@ -1,0 +1,47 @@
+{
+  "name": "react-native-brother-printing",
+  "title": "React Native Brother Printing",
+  "version": "0.2.3",
+  "description": "A package that allows you to printer with brother printers",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "README.md",
+    "index.js",
+    "index.d.ts",
+    "ios",
+    "react-native-brother-printing.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanStoilov/react-native-brother-printing.git",
+    "baseUrl": "https://github.com/IvanStoilov/react-native-brother-printing"
+  },
+  "keywords": [
+    "react-native",
+    "brother",
+    "brother-printers",
+    "printers"
+  ],
+  "author": {
+    "name": "Ivan Stoilov",
+    "email": "stoilov.ivan@gmail.com"
+  },
+  "contributors": [
+    "Ivan Stoilov"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "prettier": "^2.2.1"
+  }
+}
