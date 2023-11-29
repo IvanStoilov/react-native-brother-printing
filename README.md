@@ -20,6 +20,30 @@ or if you are using React Native before version 0.60,
 
 ## Usage
 
+### Permissions
+
+Make sure to add the following permissions to your `Info.plist` file.
+
+```xml
+  <!-- for Bluetooth (iOS 13-) -->
+	<key>NSBluetoothPeripheralUsageDescription</key>
+  <string>Find paired Brother printers</string>
+
+  <!-- for Bluetooth (iOS 13+) -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Find paired Brother printers</string>
+
+  <!-- for Wifi -->
+  <key>NSLocalNetworkUsageDescription</key>
+	<string>Find Brother printers installed in the local network.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_pdl-datastream._tcp</string>
+		<string>_printer._tcp</string>
+		<string>_ipp._tcp</string>
+	</array>
+```
+
 ### Printing via Bluetooth
 
 To discover printers use the discoverPrinters function. You can pass in the option parameters `printerName` to change
