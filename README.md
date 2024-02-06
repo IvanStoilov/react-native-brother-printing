@@ -66,15 +66,15 @@ const ipAddress = '192.168.1.18';
 const modelName = 'QL-820NWB';
 
 printImageViaWifi(imageUri, ipAddress, modelName)
-
-## Supported devices
-
-The devices which are supported are PJ-763MFi, PJ-862, PJ-863, PJ-883, MW-145MFi, MW-260MFi, RJ-2050, RJ-2150, RJ-3050Ai, RJ-3150Ai, RJ-3230B, RJ-3250WB, RJ-4030Ai, RJ-4230B, RJ-4250WB, QL-820NWB, QL-820NWBc, QL-1110NWB, QL-1110NWBc, TD-2125NWB, TD-2135NWB, TD-4550DNWB, PT-P910BT, RJ-2035B, RJ-3035B.
 ```
 
 ## Influence
 
 This library is influenced by [react-native-brother-printers](https://github.com/Avery246813579/react-native-brother-printers).
+
+## Supported devices
+
+The devices which are supported are PJ-763MFi, PJ-862, PJ-863, PJ-883, MW-145MFi, MW-260MFi, RJ-2050, RJ-2150, RJ-3050Ai, RJ-3150Ai, RJ-3230B, RJ-3250WB, RJ-4030Ai, RJ-4230B, RJ-4250WB, QL-820NWB, QL-820NWBc, QL-1110NWB, QL-1110NWBc, TD-2125NWB, TD-2135NWB, TD-4550DNWB, PT-P910BT, RJ-2035B, RJ-3035B.
 
 `react-native-brother-printing` is just a wrapper around the native library from Brother. More info here - https://support.brother.com/g/s/es/dev/en/mobilesdk/download/index.html?c=eu_ot&lang=en&navi=offall&comple=on&redirect=on#iphone.
 
